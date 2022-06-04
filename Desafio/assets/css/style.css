@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    right: 10%;
+}
+.logo img{
+    width: 75px;
+}
+
+nav ul li{
+    left: 10;
+}
+
+.img{
+    width: 250px;
+
