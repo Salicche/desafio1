@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+header{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    float: right;
+}
+
+.tarjeta {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+.tarjeta__img{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+.tarjeta__descripcion{
+    padding: 10px;
+}
+
+.tarjeta__btn{
+    margin-top: 10px;
+}
+
+
+
