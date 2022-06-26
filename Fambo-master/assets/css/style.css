@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:"header header header"
+                        "main   main   main"
+                        "footer footer footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.navbar{
+    grid-area: header;
+}
+
+.container-fluid img{
+    width: 100px;
+}
+
+/* .logo img{
+    width: 100px;
+} */
+
+/* .header nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    
+} */
+
+/* .header nav ul{
+    display: flex;
+} */
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #B298DC;
+    border-radius: 2px;
+}
+
+.tarjeta__img{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+}
+.tarjeta__descripcion{
+    padding: 10px;
+}
+
+.tarjeta__btn{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    grid-area: main;
+
+}
+
+.carousel{
+    height: 250px;
+}
+
+.cardss{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main img{
+    width: 100%;
+}
+
+.publicidad img{
+    height: 2rem;
+}
+
+.section{
+    grid-area: section;
+}
+
+.section h3{
+    grid-area: section;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+    display: flex;
+    border: 2px solid #3571b6;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__img{
+    width: 200px;
+
+}
+
+.card__info{
+    margin: 10px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.card__desc{
+    display: flex;
+        margin: 10px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+background-color: #3571b6;
+border: 1px #000;
+
+}
+
+
+.contenido img{
+    width: 1350px;
+    height: 350px;
+}
+
+.contenido p{
+    padding: 10rem;
+    font-size: 5rem;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    /* border: solid 10px #000000; */
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.aside{
+    grid-area: aside;
+    background-image: url(../../img/sorteo.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.aside__p{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(252, 252, 252, 0);
+    width: 100px; 
+    height: 50px; 
+}
+
+.aside p a{
+    text-decoration: none;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    color: #000;
+    
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #3571b6;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer ol {
+    display: flex;
+    list-style: none;
+}
+
+.footer ol li{
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.footer ol li a{
+    color: #ffffff;
+}
+
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc__img{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    padding: 20px;
+}
+
+.desc__p{
+    padding: 20px;
+    
+}
+
+.cont__ubicacion p{
+    padding: 20px;
+    
+}
+
+.ubi__img{
+    padding: 20px;
+    width: 350px;
+    justify-items: center;
+}
+
+.sorteo{
+    padding: 20px;
+}
+
+.sorteo img{
+    width: 250px;
+}
+
+form{
+    padding: 20px;
+}
+
+.contacto ol{
+    padding: 20px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:650px){
+    
+    /* .header{
+        flex-direction: column;
+    }
+
+    .header nav ul{
+        flex-direction: column;
+    } */
+}
